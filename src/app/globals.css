@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #0B0D17;
+  --color-foreground: #F1F5F9;
+  --color-surface: #111827;
+  --color-surface-light: #1E2440;
+  --color-accent: #F59E0B;
+  --color-accent-dim: #92400E;
+  --color-muted: #64748B;
+  --font-sans: var(--font-plex-sans);
+  --font-heading: var(--font-space-grotesk);
+  --font-mono: var(--font-plex-mono);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1E2440 transparent;
+}
+
+::selection {
+  background-color: #F59E0B;
+  color: #0B0D17;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0B0D17;
+  color: #F1F5F9;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 4px #F59E0B40, 0 0 8px #F59E0B20; }
+  50% { box-shadow: 0 0 8px #F59E0B60, 0 0 16px #F59E0B30; }
+}
+
+@keyframes flow-line {
+  0% { stroke-dashoffset: 100; }
+  100% { stroke-dashoffset: 0; }
+}
+
+@keyframes node-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease-out;
+}
