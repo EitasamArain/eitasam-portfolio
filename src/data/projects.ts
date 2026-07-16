@@ -44,7 +44,6 @@ export const projects: Project[] = [
   {
     title: "Restaurant WhatsApp Ordering Agent",
     client: "Client Project — Karachi",
-    image: "/projects/project-2.png",
     problem:
       "Restaurant needed a digital ordering channel without building a full app. Customers wanted to browse menu and order via WhatsApp naturally.",
     solution:
@@ -54,7 +53,6 @@ export const projects: Project[] = [
   {
     title: "AI Voice Call Agent",
     client: "Finesure — Financial Services",
-    image: "/projects/project-3.png",
     problem:
       "Financial advisory firm needed a first-contact screening system that could handle initial client calls, qualify leads, and schedule appointments without human intervention.",
     solution:
@@ -64,7 +62,6 @@ export const projects: Project[] = [
   {
     title: "Full Node.js E-Commerce Platform",
     client: "Independent Project",
-    image: "/projects/project-4.png",
     problem:
       "Needed a complete, production-ready e-commerce backend with admin management — not a Shopify clone, but custom-tailored for a specific inventory workflow.",
     solution:
@@ -74,7 +71,6 @@ export const projects: Project[] = [
   {
     title: "Facebook Lead Ads → CRM Pipeline",
     client: "Client Project — Meta Ads Integration",
-    image: "/projects/project-5.png",
     problem:
       "Facebook lead ads landing in a void — no real-time CRM sync, delayed follow-ups, lost conversions from slow response times.",
     solution:

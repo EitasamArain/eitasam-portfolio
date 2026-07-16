@@ -48,6 +48,7 @@ function Lightbox({ src, caption, onClose }: { src: string; caption: string; onC
           src={src}
           alt={caption || "Gallery image"}
           fill
+          unoptimized
           className="object-contain"
           sizes="95vw"
           priority
@@ -128,6 +129,7 @@ export default function AutomationGallery() {
                             src={img.src}
                             alt={img.caption}
                             fill
+                            unoptimized
                             className="object-cover transition-transform duration-500 group-hover:scale-105"
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 600px"
                           />

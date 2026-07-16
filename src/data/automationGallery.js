@@ -77,12 +77,12 @@ export const automationGallery = [
       "A dual-system automation platform built with Zapier that automatically captures contacts from calendar events and processes complex insurance form data with intelligent parsing, name segmentation, and automated profile creation across multiple business platforms. Includes three coordinated workflows: real-time Outlook calendar monitoring with automated attendee extraction to Constant Contact, advanced Jotform parsing with multi-method name extraction and regex pattern matching, and automated EZLynx insurance applicant profile creation with intelligent field mapping.",
     images: [
       {
-        src: "/automation-gallery/contactsync-formflow-1.png",
+        src: "/automation-gallery/contactsync-formflow-1.jpg",
         caption:
           "Calendar Contact Auto-Capture: Outlook → Constant Contact",
       },
       {
-        src: "/automation-gallery/contactsync-formflow-2.png",
+        src: "/automation-gallery/contactsync-formflow-2.jpg",
         caption: "Intelligent Form Data Processor: Jotform → EZLynx",
       },
     ],
@@ -108,15 +108,15 @@ export const automationGallery = [
       "A complete business process automation system built with Zapier, GoHighLevel, ManyChat, and Airtable, featuring multi-channel lead capture, AI-powered data processing, and automated CRM integration across website, social media, and customer engagement platforms. Includes three coordinated workflows: real-time website form to CRM integration with automatic contact and sales pipeline creation, Facebook Messenger integration with AI-powered address parsing and service categorization across 11 categories, and an automated birthday engagement system with personalized email marketing and database maintenance.",
     images: [
       {
-        src: "/automation-gallery/leadflow-nexus-1.png",
+        src: "/automation-gallery/leadflow-nexus-1.jpg",
         caption: "WebLead Capture Engine: Website Form → GHL CRM",
       },
       {
-        src: "/automation-gallery/leadflow-nexus-2.png",
+        src: "/automation-gallery/leadflow-nexus-2.jpg",
         caption: "SocialLead AI Processor: ManyChat → AI Analysis → CRM",
       },
       {
-        src: "/automation-gallery/leadflow-nexus-3.png",
+        src: "/automation-gallery/leadflow-nexus-3.jpg",
         caption: "CustomerEngage Auto-System: Automated Birthday Campaigns",
       },
     ],
